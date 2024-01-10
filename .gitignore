@@ -1,0 +1,6 @@
+reference
+.*.swp
+.swp
+*.log
+secret.*
+node_modules
