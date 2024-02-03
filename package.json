@@ -2,7 +2,7 @@
   "name": "@loadingio/svgtool",
   "version": "0.0.1",
   "description": "svg tools",
-  "main": "dist/index.min.js",
+  "main": "dist/offset.min.js",
   "files": [ "dist/**/*" ],
   "scripts": {
     "start": "npx server -r web -o true"
