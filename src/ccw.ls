@@ -15,7 +15,7 @@ utils =
       cn = c.substring(0,1)
       CN = cn.toUpperCase!
       rel = (cn != CN)
-      v = c.substring(1).split(/(?=[, -])/ig)
+      v = c.substring(1).split(/(?=[, -])/ig).map -> +it.trim!replace(/,/,'')
       switch cn.toUpperCase!
       | <[H V]>
         t = if CN == \H => <[px py]> else <[py px]>

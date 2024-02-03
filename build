@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+mkdir -p dist
+echo "offset.js ..."
+./node_modules/.bin/lsc -cpb src/offset.ls > dist/offset.js
+echo "done."
