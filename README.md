@@ -1,6 +1,17 @@
 # @loadingio/svgtool
 
-this repo is expected to provide common svg tools.
+this repo is expected to provide common svg tools. Currently in its early stage so everything will be unstable.
 
-However there are already libraries such as paperjs so for now it is used to only keep code snippet for reference.
 
+## Reference
+
+There are already libraries doing similar things:
+
+ - https://github.com/stadline/svg-flatten
+ - https://github.com/thednp/svg-path-commander
+ - https://github.com/paperjs/paper.js
+
+
+## License
+
+MIT
